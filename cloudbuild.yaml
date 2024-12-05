@@ -15,3 +15,6 @@ steps:
 
 images:
   - us-central1-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/hello-world-python:$SHORT_SHA
+
+options:
+  logging: CLOUD_LOGGING_ONLY
